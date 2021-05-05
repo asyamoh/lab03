@@ -1,14 +1,11 @@
 alert('welcome')
+ 
 
-<<<<<<< HEAD
 var firstName = prompt('what is your name?? ')
 
 var userChoice = prompt('Whats your favourite skincare  cleanser or serum??')
 
-=======
-var userChoice = prompt('Whats your favourite skincare  cleanser or serum??')
 
->>>>>>> 278453a9d8d5a602700eb51dee7ab5e449791c88
 if(userChoice === 'serum'){
   document.write('<img src="https://www.annahar.com/Library/Images/Uploaded%20Images/2020/10/28/Fadia/8-La-Roche-Posay-Effaclar-Serum.jpg">')
 }else if(userChoice === 'cleanser'){
@@ -17,20 +14,14 @@ if(userChoice === 'serum'){
   alert('okay you should only pick serum or cleanser')
 }
 
-
-
-<<<<<<< HEAD
+ 
 
 alert( firstName )
 
 var welcoming = "  good morning Beautiful"
-=======
-var firstName = prompt('what is your name?? ') 
 
-alert( firstName )
 
-var welcoming = "good morning Beautiful"
->>>>>>> 278453a9d8d5a602700eb51dee7ab5e449791c88
+
 console.log(firstName + welcoming)
 alert(firstName + welcoming)
  
