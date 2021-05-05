@@ -20,4 +20,7 @@ var lastName = "Nazif"
 var myDad = "Mohammad"
 console.log(firstName + myDad+lastName)
 alert(firstName+lastName)
+ 
+
+confirm("gooddayy!");
 
