@@ -29,15 +29,24 @@ alert(firstName + welcoming)
 confirm("gooddayy!");
 
 
-
+function userChoice(){
 var userChoice = prompt('your fvrt proooduct?')
+
+
+
 
 while(userChoice !== 'serum' && userChoice !=='cleanser'){
   userChoice = prompt('Try again !')
 }
+}
+gettingChoice()
+
 
 
 var productCount = prompt('How many Products do you want to see ?')
+function gettingChoice(){
+
+
 var image = ''
 for(var x = 0; x < productCount ;x++){
   if(userChoice ==='serum'){
@@ -48,14 +57,20 @@ for(var x = 0; x < productCount ;x++){
 }
   document.write(image)
 
+  }
+
+gettingChoice()
 
 
 
 var rating = prompt ('on scale from 0-10 how much do you like our service :D?')
 
+
  while(rating !== '10' && rating !=='0'){
  rating = prompt('Try again :( !')
 }
+ 
+ 
 
 
 if(rating === '10'){
@@ -65,3 +80,7 @@ if(rating === '10'){
 if(rating === '0'){
   document.write('<img src = "https://i.kym-cdn.com/photos/images/newsfeed/001/080/651/4a9.jpg">')
 }
+
+
+
+
